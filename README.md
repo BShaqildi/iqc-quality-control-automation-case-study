@@ -1,7 +1,7 @@
 # iQC Platform – Quality Control Automation Case Study
 
 ## Overview
-iQC is an internal quality control (QC) platform designed to replace the external system ACES and streamline the end-to-end QC process within a mortgage lending environment.
+iQC is an internal quality control (QC) platform designed to replace the external system ACES and streamline the QC process within a mortgage lending environment.
 
 The platform integrates directly with the Loan Origination System (LOS) via API, automates QC validations, and improves error tracking, notifications, and reporting.
 
@@ -13,90 +13,77 @@ Prior to iQC, the QC process relied on an external system (ACES) and required si
 
 Key challenges:
 - Manual entry of loan and client data for every QC review
-- QC touches a loan up to 10 times throughout its lifecycle
-- Each review could require rework and re-evaluation
+- QC can touch a loan up to 10 times throughout its lifecycle
+- Each review may require rework and re-evaluation
 - Inefficient error citation and resolution process
-- Limited visibility into QC performance and reporting
+- Limited reporting and visibility into QC performance
 
 This resulted in:
 - Long QC review times
 - High operational overhead
-- Increased risk of inconsistent data entry
-- Lack of real-time insights for stakeholders
-
----
-
-## Users
-
-- QC Analysts → Perform loan reviews and cite errors
-- Loan Processors → Resolve QC findings
-- Underwriters → Ensure compliance and accuracy
-- Closers → Finalize loan readiness
-- Operations Leaders → Monitor performance and efficiency
+- Increased risk of data inconsistency
+- Lack of real-time insights
 
 ---
 
 ## Goal
 
-- Eliminate dependency on external QC system (ACES)
-- Reduce manual data entry and operational inefficiencies
-- Streamline error citation and resolution workflows
-- Improve reporting and visibility into QC operations
-- Reduce overall QC review time
+- Eliminate dependency on ACES
+- Reduce manual data entry
+- Streamline QC workflows
+- Improve reporting and visibility
+- Reduce QC review time
 
 ---
 
 ## Solution
 
-Developed iQC, an internal QC platform with the following capabilities:
+Built iQC as an internal QC platform with the following capabilities:
 
-### 1. System Integration
+### System Integration
 - Integrated with Loan Origination System via API
 - Automatically pulls loan and client data
-- Eliminates manual data entry for each QC review
+- Eliminates manual entry for each QC review
 
-### 2. Workflow Automation
-- Standardized QC review lifecycle
+### Workflow Automation
+- Standardized QC lifecycle across all loan stages
 - Streamlined error citation and resolution process
-- Enabled consistent handling of QC findings
+- Reduced rework and confusion across teams
 
-### 3. Automated Validations
-- Built automated QC checkpoints within the process
-- Reduced need for manual validation
-- Improved consistency and accuracy of reviews
+### Automated Validations
+- Automated QC checkpoints within the workflow
+- Reduced manual validation effort
+- Improved consistency of reviews
 
-### 4. Notifications & Communication
+### Notifications
 - Triggered internal notifications for QC findings
-- Improved turnaround time for issue resolution
-- Reduced dependency on manual follow-ups
+- Reduced delays in issue resolution
+- Improved cross-team communication
 
-### 5. Reporting & Analytics
-- Enhanced reporting using Tableau
-- Improved visibility into QC performance
-- Enabled data-driven decision-making
+### Reporting
+- Built reporting dashboards using Tableau
+- Increased visibility into QC performance and trends
+- Enabled data-driven decisions
 
 ---
 
-## Sample User Story
+## Users
 
-**User Story:**  
-As a QC analyst, I want loan data to automatically populate during review so that I do not have to manually enter information and can focus on identifying issues.
-
-**Acceptance Criteria:**
-- Loan data is auto-populated via API integration
-- No manual entry required for core loan details
-- Data is accurate and reflects the latest loan status
-- QC user can begin review immediately
+- QC Analysts
+- Loan Processors
+- Underwriters
+- Closers
+- Operations Leaders
 
 ---
 
 ## Key Features
 
-- API integration with Loan Origination System
-- Automated QC validation checkpoints
-- Error citation and resolution workflow
+- API-based loan data integration
+- Automated QC checkpoints
+- Error citation workflow
 - Internal notification system
-- Tableau-based reporting dashboards
+- Tableau reporting dashboards
 
 ---
 
@@ -105,24 +92,23 @@ As a QC analyst, I want loan data to automatically populate during review so tha
 - Reduced QC review time by 30%
 - Eliminated ~10 minutes of manual data entry per QC review
 - Automated 30+ QC checkpoints
-- Improved efficiency across QC operations
-- Increased reporting visibility and transparency
+- Improved operational efficiency
+- Increased reporting visibility
 
 ---
 
 ## Outcome
 
-- Successfully replaced external QC system (ACES)
-- Streamlined QC process across the loan lifecycle
-- Reduced operational friction and manual effort
-- Improved consistency in QC reviews and error handling
-- Enabled scalable QC operations across teams
+- Successfully replaced ACES with internal solution
+- Streamlined QC process across loan lifecycle
+- Reduced manual effort and operational friction
+- Improved consistency and accuracy in QC reviews
 
 ---
 
 ## Key Takeaways
 
-- Automation within operational workflows significantly reduces cycle time
-- API integrations are critical for eliminating manual data entry
-- Standardizing workflows improves both efficiency and accuracy
-- Visibility through reporting enables better operational decision-making
+- Automation significantly reduces operational bottlenecks
+- API integration is critical for efficiency
+- Standardized workflows improve accuracy and scalability
+- Strong reporting enables better decision-making
